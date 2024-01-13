@@ -1,0 +1,26 @@
+{
+    "manifest_version": 1,
+    "name": "Vikings TTT Panel",
+    "description": "Show riderpanel",
+    "author": "Roar M Olsen",
+    "website_url": "https://vikings.e-timing.eu/#/",
+    "version": "0.0.1",
+    "content_js": [],
+    "content_css": [],
+    "web_root": "pages",
+    "windows": [{
+        "file": "pages/mod.html",
+        "id": "panel-live",
+        "name": "Vikings TTT Panel",
+        "description": "Show riderpanel",
+        "always_visible": true,
+        "overlay": true,
+        "frame": false,
+        "default_bounds": {
+            "width": 450,
+            "height": 660,
+            "x": 100,
+            "y": -100
+        }
+    }]
+}

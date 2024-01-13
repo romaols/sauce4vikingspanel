@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Viking TTT panel</title>
+
+        <script src="src/mod.mjs" type="module"></script>
+        <style media="screen">
+            html{
+                width         : 100%;
+                height        : 100%;
+                overflow      : hidden;
+                margin        : 0;
+                padding       : 0;
+                background-color: whitesmoke;
+                opacity: 50;
+            }
+     
+            .default{ 
+                -webkit-app-region: drag;
+                padding       : 0;
+                margin        : 0;
+                width         : 100%;
+                height        : 100%;
+                opacity: 50;
+            }
+
+            .mainframe
+            {
+                position: relative;
+                margin-top: 15px;
+                width: 100%;
+                height: 98%;
+                -webkit-app-region: no-drag;
+                opacity: 50;
+            }
+
+        </style>
+
+    </head>
+
+    <body id="bd" class="default"> 
+     <iframe class="mainframe" src="https://vikings.e-timing.eu/#/panel"></iframe>
+    </body>
+</html>
